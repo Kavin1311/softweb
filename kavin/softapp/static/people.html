@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partners</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+            position: relative; 
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .partner-card {
+    width: calc(33.33% - 40px);
+    margin: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    height: 300px; 
+}
+
+
+        .partner-image {
+            width: 100%;
+            height: 85%;
+            overflow: hidden;
+        }
+
+        .partner-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .partner-name {
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        
+        .contact-button {
+            position: absolute;
+            top: 20px;
+            right: 180px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+       
+        .learn-more-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Our Partners</h1>
+    <div class="container">
+        <div class="partner-card">
+            <div class="partner-image">
+                <img src="sundar_pichai_reuters_1575538906708.webp" alt="Partner 1">
+            </div>
+            <div class="partner-name">SUNDAR PICHAI</div>
+        </div>
+        <div class="partner-card">
+            <div class="partner-image">
+                <img src="elon-musk-81fi31lzmqbcg80q.jpg" alt="Partner 2">
+            </div>
+            <div class="partner-name">ELON MUSK</div>
+        </div>
+        <div class="partner-card">
+            <div class="partner-image">
+                <img src="Mukesh_Ambani_1554699974480_1565592700660.webp" alt="Partner 3">
+            </div>
+            <div class="partner-name">MUKESH AMBANI</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="partner-card">
+            <div class="partner-image">
+                <img src="758b539570714f7b05c13ef1078d55ab.jpg" alt="Partner 4">
+            </div>
+            <div class="partner-name">RATAN TATA</div>
+        </div>
+        <div class="partner-card">
+            <div class="partner-image">
+                <img src="20150224165308-jeff-bezos-amazon.webp" alt="Partner 5">
+            </div>
+            <div class="partner-name">JEFF BEZOS</div>
+        </div>
+        <div class="partner-card">
+            <div class="partner-image">
+                <img src="Screenshot 2024-04-28 150851.png" alt="Partner 6">
+            </div>
+            <div class="partner-name">KAVINAJAI</div>
+        </div>
+    </div>
+
+    <button class="contact-button">Contact Us</button>
+  
+    <button class="learn-more-button">Learn more</button>
+</body>
+</html>

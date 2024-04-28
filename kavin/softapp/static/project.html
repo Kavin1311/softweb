@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prestigious Projects</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+
+    body, html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    #video-bg {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -1;
+      background-size: cover;
+    }
+
+  
+    .container {
+      color: #fff; 
+      padding-top: 80px; 
+    }
+
+  
+    .card {
+      width: 300px;
+      height: auto;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.8); 
+    }
+    .card img {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      max-height: 200px;
+      object-fit: cover;
+    }
+    .card-body {
+      padding: 20px;
+    }
+    .card-title {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .card-text {
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+<video id="video-bg" autoplay muted loop>
+    <source src="121799-724719792_large.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="container">
+    <h1 class="text-center my-4">Our Prestigious Projects</h1>
+    <div class="card-deck">
+    
+      <div class="card">
+        <img src="barangaloo-1024x308.jpg" class="card-img-top" alt="Project 1">
+        <div class="card-body">
+          <h5 class="card-title">SYDNEY-HARVES</h5>
+          <p class="card-text">Fantech, a leading provider of fans and air ventilation technologies located in Australasia, have supplied a range of fans to Sydney’s largest urban renewal project since the 2000 Olympic Games.</p>
+        </div>
+      </div>
+      
+      <div class="card">
+        <img src="hasman-thumb.jpg" class="card-img-top" alt="Project 2">
+        <div class="card-body">
+          <h5 class="card-title">HASMAN-LIVERPOOL</h5>
+          <p class="card-text">2018
+            Air Design, a pioneering manufacturer of air handling and heat recovery units for the building services market, have recently installed energy recovery ventilation at Hasman’s first dedicated training centre in the UK.</p>
+        </div>
+      </div>
+      
+      <div class="card">
+        <img src="charlton-farm-1.jpg" class="card-img-top" alt="Project 3">
+        <div class="card-body">
+          <h5 class="card-title">CHARLTON FARM - TELFORD, ENGLAND</h5>
+          <p class="card-text">2015Hydor completed a new build, equipment supply and installation for Shed 6 at Charlton Farm in Walcot, Wellington, Telford which has significantly increased the bird population of the farm by 41,000 to a total of 195,000.</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            overflow: hidden; /* Hide horizontal scrollbars */
+        }
+
+        #video-bg {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1;
+            background-size: cover;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .row {
+            margin-bottom: 20px;
+        }
+
+        .card {
+            margin-bottom: 20px;
+            height: 100%; /* Make all cards the same height */
+        }
+
+        .card-body {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card-title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .card-text {
+            font-size: 18px;
+        }
+
+        .know-more {
+            font-size: 18px;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .know-more:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+        .white {
+            color: white;
+        } 
+    </style>
+</head>
+<body>
+    <video id="video-bg" autoplay muted loop>
+        <source src="121799-724719792_large.mp4" type="video/mp4">
+       
+    </video>
+
+    <div class="container">
+        <h1 class="white">Our Products</h1> 
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="03ukCMGudzLvpPEiBrWPQHB-81.webp" class="card-img-top" alt="Image">
+                    <div class="card-body">
+                        <h5 class="card-title">MCAFEE</h5>
+                        <p class="card-text">Industry leader</p>
+                        <a href="https://www.mcafee.com/blogs/internet-security/how-to-safeguard-your-linkedin-account-and-strengthen-your-security/" class="know-more">Know More</a> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="bitdefender-total-security-500x500.webp" class="card-img-top" alt="Image">
+                    <div class="card-body">
+                        <h5 class="card-title">BITDEFENDER</h5>
+                
+                        <a href="#" class="know-more">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images.jpg" class="card-img-top" alt="Image">
+                    <div class="card-body">
+                        <h5 class="card-title">KASPERSKY</h5>
+                       
+                        <a href="https://www.kaspersky.co.in/" class="know-more">Know More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images.png" class="card-img-top" alt="Image">
+                    <div class="card-body">
+                        <h5 class="card-title">F-SECURE</h5>
+                      
+                        <a href="https://www.f-secure.com/en" class="know-more">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="tBNc6xDduNdggS5fGKDZaB.jpg" class="card-img-top" alt="Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Malwarebytes</h5>
+                     
+                        <a href="https://www.malwarebytes.com/" class="know-more">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Total-AV-logo.jpeg.webp" class="card-img-top" alt="Image">
+                    <div class="card-body">
+                        <h5 class="card-title">TOTAL AV</h5>
+                       
+                        <a href="http://www.totalav.com/?forceLang=en" class="know-more">Know More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+
+   
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
